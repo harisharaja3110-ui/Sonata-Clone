@@ -1354,5 +1354,30 @@ hr{
     .price-inputs div {
         font-size: 12px;
     }
+     .info-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 25px 15px;
+        gap: 20px;
+    }
+
+    .info:first-child {
+        grid-column: 1 / -1;
+    }
+
+    .info h2 {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 13px;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+
+
+    
 }
 
